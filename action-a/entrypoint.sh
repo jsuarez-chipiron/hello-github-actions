@@ -1,5 +1,5 @@
-#!/bin/sh -l
+#!/bin/bash
 
-sh -c "echo Hello world my name is $INPUT_MY_NAME"
+echo "Hello world my name is $INPUT_MY_NAME"
 ls -lhtr > caca.txt
 cat caca.txt
