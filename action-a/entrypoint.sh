@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo "Hello world my name is $INPUT_MY_NAME"
-ls -lhtr > caca.txt
+/work/sfdx/bin/sfdx --version > caca.txt
 cat caca.txt
