@@ -1,0 +1,9 @@
+FROM debian:9.5-slim
+
+ADD entrypoint.sh /entrypoint.sh
+ADD sfdx-linux-x64.tar.gz /work
+# RUN tar xzvf /work/sfdx-linux-x64.tar.gz -C /work
+RUN chmod +x /entrypoint.sh
+# ENTRYPOINT ["/entrypoint.sh"]
+
+
